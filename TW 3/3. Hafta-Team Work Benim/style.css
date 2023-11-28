@@ -1,0 +1,64 @@
+#pl{
+    /* background-color: blueviolet; */
+}
+
+.label1{
+    /* background-color: coral; */
+    width: 150px;
+    display: inline-block;
+    margin: 5px 0;
+}
+#yas{
+    width: 50px;
+}
+.label2{
+    /* background-color: orange; */
+    display: inline-block;
+    width: 150px;
+    margin: 10px 0;
+}
+.pl{
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+}
+#pl{
+    /* background-color: red; */
+    /* position: relative;
+    top: -30px; */
+
+    /* float: left;
+    margin-top: 35px; */
+    
+}
+form{
+    /* border: 5px solid red; */
+    
+
+}
+input{
+    border-radius: 5px;
+}
+.container{
+    border: 1px solid rgba(0, 0, 0, 0.403);
+    box-shadow: 5px 5px 50px black;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+}
+fieldset{
+    margin: 10px;
+    border-radius: 10px;
+}
+h1{
+    font-size: 1.2rem;
+}
+#select{
+    /* border: 3px solid red; */
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+   
+    
+}

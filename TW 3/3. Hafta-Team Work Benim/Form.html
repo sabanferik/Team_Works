@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tatil-Sozlesmesi</title>
+     <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+    <div class="container">
+
+    
+      <h1 style="text-align: center">
+      ABC Tasarim Programi Kurulum ve Satis Sözlesmesi :)
+      </h1>
+      <form action="result.html">
+        <div>
+        <fieldset>
+          <legend>Sözlesme Onay</legend>
+          <input type="checkbox" name="ONAY" id="onay" value="onaylandi" />
+          <label for="onay">
+            Asagidaki Bilgilerin dogrulugunu kabul ediyorum ve sözlesmesini
+            onayliyorum.
+          </label>
+            <br />
+          <input type="submit" value="Formu Kaydet" />
+          <input type="reset" value="Formu Temizle" />
+        </fieldset>
+        </div>
+
+        <div>
+        <fieldset>
+          <legend>Kisisel Bilgiler</legend>
+          <div>
+            <label class="label1" for="id">Form Güvenlik ID</label>
+            <input type="text" name="ID" id="id" />
+          </div>
+          <div>
+            <label class="label1" for="isim">Ad</label>
+            <input type="text" name="Name" id="isim" />
+          </div>
+          <div>
+            <label class="label1" for="soyisim">Soyad</label>
+            <input type="text" name="Surneme" id="soyisim" />
+          </div>
+          <div>
+            <label class="label1" for="yas">Yas</label>
+            <input type="number" name="Age" id="yas" min="18" />
+          </div>
+          <div>
+            <label class="label1" for="mail">Mail Adresi</label>
+            <input type="email" name="mail" id="mail" />
+          </div>
+          <div>
+            <label class="label1" for="ekle">Fotograf Ekle</label>
+            <input type="file" name="Foto" id="ekle" />
+          </div>
+        </fieldset>
+        </div>
+
+        <div>
+        <fieldset>
+          <legend>Diger Bilgiler</legend>
+          <h3>Buradaki bilgiler "Mesleki" bilgileri kapsar</h3>
+          <div>
+            <label class="label2" for="tarih">Sektöre Giris Tarihi</label>
+            <input type="date" name="Tarih" id="tarih" />
+          </div>
+
+          <div style="display: flex; align-items: center">
+            <div>
+              <label class="label2" for="">Sektör Deneyimi</label>
+            </div>
+
+            <div>
+              <input type="radio" name="deneyim" value="1-5" id="bır" />
+              <label for="bır">1-5 Yil</label>
+              <br />
+
+              <input type="radio" name="deneyim" value="6-10" id="ıkı" />
+              <label for="ıkı">6-10 Yil</label>
+              <br />
+
+              <input type="radio" name="deneyim" value="11-15" id="uc" />
+              <label for="uc">11-15 Yil</label>
+              <br />
+
+              <input type="radio" name="deneyim" value="15-plus" id="dort" />
+              <label for="dort">15-Uzeri</label>
+            </div>
+        </div>
+        
+        <div class="pl">
+            <label class="label2" id="pl">Programlama Dilleri</label>
+            <select class="no-scroll" name="Programlama Dilleri" id="select" size="5" multiple>
+                <option value="C#">C#</option>
+                <option value="PHP">PHP</option>
+                <option value="JAVA">Java</option>
+                <option value="Python">Python</option>
+                <option value="Javascript">Javascript</option>
+                <option value="Swift">Swiftt</option>
+                <option value="Kotlin">Kotlin</option>
+            </select>
+        </div>
+        </div>
+
+        <div>
+        <fieldset>
+          <legend>Sözlesme Kopyasi</legend>
+          <textarea name="" id="" style="resize: none; width: 100%; height: 70px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur libero maiores praesentium ab, quas aliquid beatae assumenda, aspernatur a nesciunt at eaque omnis eos commodi obcaecati rem vero repellendus reprehenderit? Natus, dolorum! Odit esse repudiandae consectetur eius corporis quidem cupiditate!
+          </textarea>
+        </fieldset>
+        </div>
+        <div>
+          <fieldset>
+            <legend>Mail Listesi</legend>
+            <label for="yes">Mail Liistesine Katilmak <strong>İstiyorum</strong> </label>
+            <input type="radio" name="Mail Listesi" id="yes" value="istäyorum">
+            <br>
+            <label for="no">Mail Listesine Katilmak <u><strong>İstemiyorum</strong></u></label>
+            <input type="radio" name="Mail Listesi" id="no" value="istemiyorum">
+          </fieldset>
+        </div>
+      </form>
+    </div>
+
+  </body>
+</html>
