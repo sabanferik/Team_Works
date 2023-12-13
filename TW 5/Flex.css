@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&family=IBM+Plex+Mono&family=Orbitron&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  font-family: "Comfortaa", sans-serif;
+  font-family: "IBM Plex Mono", monospace;
+  font-family: "Orbitron", sans-serif;
+  font-family: "Victor Mono", monospace;
+  --bg-color: #212A34;
+  --second-bg-color: #353F4E;
+  --text-color: #fff;
+  --main-color: #D80404;
+}
+header {
+  border: 2px solid red;
+  /* height: 50px; */
+  width: 100%;
+  padding: 3rem 5rem;
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+ 
+}
+.harvey{border: 2px solid wheat;
+color: var(--main-color);
+font-family: "Orbitron", sans-serif;
+font-size: 2rem;
+/* position: absolute; */
+top: 30px;
+}
+.navbar{
+  border: 2px solid red;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  font-family: "Comfortaa", sans-serif;
+/* position: absolute; */
+right: 30px;
+}
+.navbar a{color: var(--text-color);
+font-size: 1rem;
+text-decoration: none;
+}
+.navbar a:hover, .navbar a:active{color: var(--main-color);}
