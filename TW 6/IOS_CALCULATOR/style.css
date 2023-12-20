@@ -13,7 +13,6 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  
 }
 .calculator {
   background: black;
@@ -25,21 +24,19 @@ body {
   display: flex;
   flex-direction: column;
   border-radius: 50px;
-
-
 }
-.display{
-    height: 250px;
-    /* border: 1px solid red; */
-    border-radius: 20px;
-    padding: 20px;
-    margin: 20px;
-    background-color: lightcyan;
-    color: black;
-    font-size: 50px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+.display {
+  height: 250px;
+  /* border: 1px solid red; */
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+  background-color: lightcyan;
+  color: black;
+  font-size: 50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 .buttons-container {
   /* border: 1px solid red; */
@@ -63,26 +60,25 @@ body {
   cursor: pointer;
 }
 
-.button.function{
-    color: black;
-    background-color: #a5a5a5;
+.button.function {
+  color: black;
+  background-color: #a5a5a5;
 }
-.button.operator{
-    background-color: #f1a33c;
+.button.operator {
+  background-color: #f1a33c;
 }
-.equel{
-    background-color: #f1a33c;
-}
-
-.button.number-0{
-    border-radius: 55px;
-    grid-column: 1/span 2;
-    justify-content: flex-start;
-    padding: 43px;
-    width: 215px;
-
+.equel {
+  background-color: #f1a33c;
 }
 
-.button:hover{
-    opacity: 0.5;
+.button.number-0 {
+  border-radius: 55px;
+  grid-column: 1 / span 2;
+  justify-content: flex-start;
+  padding: 43px;
+  width: 215px;
+}
+
+.button:hover {
+  opacity: 0.5;
 }
